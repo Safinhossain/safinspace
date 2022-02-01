@@ -1,0 +1,168 @@
+/* extra small device */
+/* extra small device */
+/* extra small device */
+/* extra small device */
+/* extra small device */
+@media(max-width:575px){
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+    .navbar-toggler-icon{
+        border: none !important;
+        width: 1em;
+        height: 1em;
+    }
+    .navbar-nav .nav-item .nav-link{
+        border-bottom: 1px solid black;
+        border-left: none !important;
+        border-right: none !important;
+        font-size: 12px;
+        padding: 10px 25px !important;
+        background-color: rgb(0, 0, 0,0.5);
+    }
+    .navbar-nav .nav-item .nav-link:hover{
+        background-color: rgb(0, 0, 0,1);
+    }
+    .banner_text{
+        left: 10%;
+    }
+    .banner_text h3{
+        font-size: 20px;
+    }
+    .banner_text h1{
+        font-size: 50px;
+        margin: 10px 0;
+    }
+    .banner_text span{
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+    .main_link i{
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .photo{
+        width: 50%;
+    }
+    .photo .my_photo{
+        width: 220px;
+        top: 100px;
+        left: 50%;
+        transform: translate(-50%,50%);
+    }
+    .about_me{
+        width: 50%;
+    }
+    .about_me_text{
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+    .about_me_text p{
+        font-size: 12px;
+        line-height: 16px;
+        padding-right: 20px;
+    }
+    .about_me_text h2{
+        font-size: 24px;
+    }
+    .about_me_text h4{
+        font-size: 16px;
+    }
+    .about_list ul li p{
+        font-size: 12px;
+    }
+    .about_list ul li span{
+        font-size: 12px;
+        padding-right: 30px;
+    }
+    .about_list ul li span::after{
+        right: 13px;
+    }
+    .service_head h6{
+        font-size: 16px;
+    }
+    #service{
+        padding: 50px 0;
+    }
+    .service_head h1{
+        font-size: 40px;
+    }
+    .service_item{
+        width: 200px;
+        height: 145px;
+        padding: 20px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .service_item i{
+        font-size: 20px;
+    }
+    .service_item h3{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .service_item p{
+        font-size: 12px;
+        line-height: 12px;
+        margin-top: 10px;
+    }
+    #service_item_icon{
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    #skill{
+        padding: 50px 0;
+    }
+    .skill_main{
+        width: 500px;
+        margin: 30px auto;
+        padding: 20px;
+    }
+    .skill_main h2{
+        font-size: 40px;
+    }
+    .skill_main li{
+        margin: 0px;
+    }
+    .skill_main li h3{
+        font-size: 18px;
+    }
+    .bar{
+        height: 20px;
+    }
+    .contact_head h2{
+        font-size: 40px;
+    }
+    .contact_details p{
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+    .contact_details{
+        margin-top: 30px;
+    }
+    #contact{
+        height: 40vh;
+    }
+    footer{
+        padding: 8px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+    .design_item{
+        margin-left: 100px;
+        width: 275px;
+        margin-top: 20px;
+    }
+    .design_item .img{
+        width: 275px;
+        height: 250px;
+    }
+    .design_item .text{
+        width: 275px;
+        height: 50px;
+        padding: 8px;
+    }
+}
